@@ -30,7 +30,7 @@ public class SuccessHandler implements AuthenticationSuccessHandler {
             }
         }
         if(hasUser){
-            redirectStrategy.sendRedirect(request,response,"/checkout");
+            redirectStrategy.sendRedirect(request,response,"/");
         } else if (hasAdmin) {
             redirectStrategy.sendRedirect(request,response,"/admin/home");
         }else{

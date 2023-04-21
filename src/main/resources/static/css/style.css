@@ -7170,6 +7170,8 @@ button.bg-dark:focus {
 
 .overflow-hidden {
   overflow: hidden !important;
+  display: flex;
+  align-items: center;
 }
 
 .position-static {
